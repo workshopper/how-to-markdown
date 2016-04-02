@@ -1,0 +1,38 @@
+{
+  "name": "how-to-markdown",
+  "version": "0.0.0",
+  "description": "Learn you how to start using Markdown",
+  "main": "./index.js",
+  "scripts": {
+    "postpublish": "git push --follow-tags"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/denysdovhan/learnyoubash.git"
+  },
+  "keywords": [
+    "nodeschool",
+    "workshopper",
+    "tutorial",
+    "markdown",
+    "md"
+  ],
+  "author": "Denys Dovhan <email@denysdovhan.com> (http://denysdovhan.com)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/denysdovhan/learnyoubash/issues"
+  },
+  "homepage": "https://github.com/denysdovhan/learnyoubash#readme",
+  "engines": {
+    "node": ">=4.0.0"
+  },
+  "dependencies": {
+    "colors": "^1.1.2",
+    "diff": "^2.2.1",
+    "workshopper-adventure": "^4.4.3"
+  },
+  "bin": {
+    "how-to-markdown": "./bin/how-to-markdown"
+  },
+  "preferGlobal": true
+}
