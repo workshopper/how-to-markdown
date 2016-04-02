@@ -2,7 +2,7 @@ const path            = require('path');
 const troubleshooting = require('./troubleshooting');
 const diff            = require('./diff');
 
-module.exports = (dirname, getArgs) => {
+module.exports = (dirname) => {
 
   "use strict";
 
@@ -23,20 +23,10 @@ module.exports = (dirname, getArgs) => {
   };
 
   exports.verify = function (args, done) {
-    // Get argumetns which will be passed into script
-    if (typeof getArgs === 'function') {
-      args = args.concat(getArgs());
-    }
-
     done(false);
   };
 
   exports.run = function (args, done) {
-    // Get argumetns which will be passed into script
-    if (typeof getArgs === 'function') {
-      args = args.concat(getArgs());
-    }
-
     done();
   };
 
