@@ -27,8 +27,13 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
+    "chokidar": "^1.4.3",
     "colors": "^1.1.2",
     "diff": "^2.2.1",
+    "express": "^4.13.4",
+    "openurl": "^1.1.1",
+    "remark": "^4.2.0",
+    "remark-html": "^3.0.0",
     "workshopper-adventure": "^4.4.3"
   },
   "bin": {
