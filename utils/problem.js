@@ -5,6 +5,10 @@ const html = require('remark-html');
 const express = require('express');
 const chokidar = require('chokidar');
 const open = require('openurl').open;
+const equal = require('deep-equal');
+
+const troubleshooting = require('./troubleshooting');
+const diff = require('./diff');
 
 module.exports = (dirname) => {
 
@@ -27,7 +31,36 @@ module.exports = (dirname) => {
   };
 
   exports.verify = function (args, done) {
-    done(false);
+    const filename = args[0];
+
+    const attempt = fs.readFileSync(filename, 'utf8');
+    const solution = fs.readFileSync(this.solutionPath, 'utf8');
+
+    const parseAST = (str, cb) => cb(remark.parse(str, { position: false }));
+
+    parseAST(attempt, (attemptAST) => {
+      parseAST(solution, (solutionAST) => {
+        if (equal(attemptAST, solutionAST)) {
+          return done(true);
+        } else {
+          exports.fail = [
+            {
+              text: troubleshooting(this.troubleshooting, {
+                solution: solution,
+                attempt:  attempt,
+                diff:     diff(solution, attempt),
+                filename: filename
+              }),
+              type: 'md'
+            },
+            { text: '---', type: 'md' },
+            { file: path.join(__dirname, '..', 'i18n', 'footer', '{lang}.md') }
+          ];
+
+          return done(false);
+        }
+      });
+    });
   };
 
   exports.run = function (args, done) {
