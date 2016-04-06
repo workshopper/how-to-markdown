@@ -8,7 +8,8 @@ HowToMarkdown = workshopper({
 });
 
 HowToMarkdown.addAll([
-  "HELLO WORLD"
+  "HELLO WORLD",
+  "EMPHASIS"
 ]);
 
 module.exports = HowToMarkdown;
