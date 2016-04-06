@@ -9,7 +9,8 @@ HowToMarkdown = workshopper({
 
 HowToMarkdown.addAll([
   "HELLO WORLD",
-  "EMPHASIS"
+  "EMPHASIS",
+  "LISTS"
 ]);
 
 module.exports = HowToMarkdown;
