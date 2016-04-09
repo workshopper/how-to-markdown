@@ -15,7 +15,8 @@ HowToMarkdown.addAll([
   "LINKS",
   "IMAGES",
   "BLOCKQUOTES",
-  "CODE"
+  "CODE",
+  "TABLES"
 ]);
 
 module.exports = HowToMarkdown;
