@@ -14,7 +14,8 @@ HowToMarkdown.addAll([
   "LISTS",
   "LINKS",
   "IMAGES",
-  "BLOCKQUOTES"
+  "BLOCKQUOTES",
+  "CODE"
 ]);
 
 module.exports = HowToMarkdown;
