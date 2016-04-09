@@ -13,7 +13,8 @@ HowToMarkdown.addAll([
   "EMPHASIS",
   "LISTS",
   "LINKS",
-  "IMAGES"
+  "IMAGES",
+  "BLOCKQUOTES"
 ]);
 
 module.exports = HowToMarkdown;
