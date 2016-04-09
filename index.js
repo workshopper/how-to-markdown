@@ -11,7 +11,8 @@ HowToMarkdown.addAll([
   "HELLO WORLD",
   "EMPHASIS",
   "LISTS",
-  "LINKS"
+  "LINKS",
+  "IMAGES"
 ]);
 
 module.exports = HowToMarkdown;
