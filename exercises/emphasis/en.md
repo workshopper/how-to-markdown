@@ -22,7 +22,9 @@ Sometimes you need to draw line through the text. To get strikethrough wrap the 
 
 ## THE CHALLENGE
 
-Here is a text:
+Create a new file and add a first-level heading at the top of your file. This heading should contain `Emphasis` text.
+
+Below the heading, add this text:
 
     It's very easy to use italic, bold and combined emphasis in Markdown!
 

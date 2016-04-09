@@ -9,6 +9,7 @@ HowToMarkdown = workshopper({
 
 HowToMarkdown.addAll([
   "HELLO WORLD",
+  "HEADINGS",
   "EMPHASIS",
   "LISTS",
   "LINKS",

@@ -16,4 +16,4 @@ I am the first paragraph.
 I am the second one.
 ```
 
-In the next exercise we will take a look at emphasis in Markdown.
+In the next exercise we will take a look at headings in Markdown.

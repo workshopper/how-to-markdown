@@ -55,6 +55,8 @@ For lists with `*` and ordered lists it works as well.
 
 ## THE CHALLENGE
 
+In the new file add a first-level heading with `Lists` as content.
+
 Try to write your own list. Please create new file and create an unordered list in it:
 
 - One

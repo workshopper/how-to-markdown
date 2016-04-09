@@ -37,6 +37,8 @@ As you may notice above, references are case-insensitive and you are free to use
 
 ## THE CHALLENGE
 
+At the top of the file, add a first-level heading with `Links` text.
+
 Here you have a text:
 
     how-to-markdown is a workshopper that teach you how to write Markdown.

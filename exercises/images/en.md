@@ -12,8 +12,10 @@ The reference style also works for images. You can do something like this:
 
 ## THE CHALLENGE
 
+Add a first-level heading with `Images` text inside.
+
 Let's say we have a Markdown logo on this URL: `http://bit.do/how-to-markdown`
 
-You have to write the first-level heading that will contain `Markdown` string. Below, you should create a inline-style image with `Markdown logo` as alternate text and `http://bit.do/how-to-markdown` as URL.
+Below, you should create a inline-style image with `Markdown logo` as alternate text and `http://bit.do/how-to-markdown` as URL.
 
 ---
