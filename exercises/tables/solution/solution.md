@@ -1,3 +1,5 @@
+# Tables
+
 | Year | World population |
 | :--: | ---------------- |
 | 1960 | 3 Billion        |
