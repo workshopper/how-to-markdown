@@ -17,7 +17,8 @@ HowToMarkdown.addAll([
   "BLOCKQUOTES",
   "CODE",
   "TABLES",
-  "HORIZONTAL RULES"
+  "HORIZONTAL RULES",
+  "HTML"
 ]);
 
 module.exports = HowToMarkdown;
