@@ -18,7 +18,8 @@ HowToMarkdown.addAll([
   "CODE",
   "TABLES",
   "HORIZONTAL RULES",
-  "HTML"
+  "HTML",
+  "GFM"
 ]);
 
 module.exports = HowToMarkdown;
