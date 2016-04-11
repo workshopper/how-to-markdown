@@ -1,6 +1,6 @@
 {
   "name": "how-to-markdown",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "Learn you how to start using Markdown",
   "main": "./index.js",
   "scripts": {
