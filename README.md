@@ -6,7 +6,7 @@
 [![node][node-image]][node-url]
 [![Dependency Status][depstat-image]][depstat-url]
 
-> Learn you how to write Markdown.
+> Learn you how to start using Markdown.
 
 It's kinda strange, but many people still don't know Markdown, although there is nothing hard in this amazing tool. This workshopper will teach you how to use Markdown.
 
