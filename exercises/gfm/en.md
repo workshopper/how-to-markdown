@@ -52,7 +52,7 @@ Please create a to-do list with these tasks:
 - ho
 - let's go
 
-Then mark item `let's go` as completed.
+Then mark item `ho` as completed.
 
 Verify your solution.
 
