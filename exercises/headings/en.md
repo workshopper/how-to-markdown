@@ -1,4 +1,4 @@
-It's important to categorize information. That's when headings is come to help us.
+It's important to categorize information. That's when headings come to help us.
 
 If you need to add a heading just type a `#` sign. The amount of `#` is a level of heading. For example:
 

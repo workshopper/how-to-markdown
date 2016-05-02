@@ -42,7 +42,7 @@ As you may see, this notation is very intuitive and readable.
 
 ### Nested lists
 
-There is nothing hart to make a nested list. Just add a tab, or spaces for nested elements such as:
+There is nothing hard about making a nested list. Just add a tab, or spaces for nested elements such as:
 
     - element 1
       - element 1.2
