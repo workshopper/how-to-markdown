@@ -8,7 +8,7 @@ If you are already familiar with HTML, you may guess that your solution will be 
 <p>Hello, world!</p>
 ```
 
-Paragraphs are separated by a blank line, so if you need to create a two or more paragraphs, you have to write something like this:
+Paragraphs are separated by a blank line, so if you need to create two or more paragraphs, you have to write something like this:
 
 ```
 I am the first paragraph.
