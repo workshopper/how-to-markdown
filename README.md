@@ -62,7 +62,7 @@ MIT © [Denys Dovhan](http://denysdovhan.com)
 
 <!-- Badges -->
 
-[npm-url]: https://npmjs.org/package/jearnyoubash
+[npm-url]: https://npmjs.org/package/how-to-markdown
 [npm-image]: https://img.shields.io/npm/v/how-to-markdown.svg?style=flat-square
 
 [node-url]: https://nodejs.org/en/download/
