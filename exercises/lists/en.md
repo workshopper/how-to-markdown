@@ -69,6 +69,6 @@ Try to write your own list. Please create a new file and create an unordered lis
 - Four
 - Five
 
-When you are done, please verify your solution with: how-to-markdown verify [yourFileName].md
+When you are done, please verify your solution.
 
 ---
