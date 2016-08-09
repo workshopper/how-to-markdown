@@ -1,6 +1,6 @@
 Tables are not a part of Markdown spec, but a lot of parsers support them. Especially **GFM** which are used on GitHub.
 
-Creating of tables in Markdown looks exactly like drawing using dashes (`-`) and pipes (`|`). Also, you may use colons to align columns. For example:
+The creation of tables in Markdown looks exactly like drawing using dashes (`-`) and pipes (`|`). Also, you may use colons to align columns. For example:
 
     | Head         | of       | Table         |
     | ------------ |:--------:| ------------ :|
@@ -14,7 +14,7 @@ The table above will be rendered like this:
 | left-aligned | centered | right-aligned |
 | left-aligned | centered | right-aligned |
 
-There are few important things here:
+There are a few important things here:
 
 * There must be at least 3 dashes separating each header cell.
 * The outer pipes (`|`) are optional.
@@ -34,7 +34,7 @@ Markdown | Less | Pretty
 
 ## THE CHALLENGE
 
-Add a first-level heading that contains a name of this exercise.
+Add a first-level heading that contains the name of this exercise.
 
 Reproduce this table:
 

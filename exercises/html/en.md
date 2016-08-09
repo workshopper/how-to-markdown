@@ -1,4 +1,4 @@
-If you want to make something more than is allowed in Markdown, you can use raw HTML in your Markdown and it'll work pretty well.
+If you want to style something more than is allowed in Markdown, you can use raw HTML in your Markdown and it'll work pretty well.
 
     <p align="center">Centered text works well!</p>
 
@@ -12,9 +12,9 @@ It won't work.
 
 ## THE CHALLENGE
 
-Add a `HTML` as first-level heading.
+Add `HTML` as the first-level heading.
 
-Below, use a HTML for centering this text:
+Below, use HTML for centering this text:
 
     HTML in Markdown
 

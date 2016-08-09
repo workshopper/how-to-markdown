@@ -1,4 +1,4 @@
-It's easy to mark text as _italic_, **bold**, _**combined**_ and ~~strikethrough~~. There are few ways to make emphasis in Markdown and each of those is readable.
+It's easy to mark text as _italic_, **bold**, _**combined**_ and ~~strikethrough~~. There are a few ways to make emphasis in Markdown and each of those is readable.
 
 To get emphasis just wrap some text in single, double or triple asterisks (`*`) or underscores (`_`). Here are some examples:
 
@@ -22,7 +22,7 @@ Sometimes you need to draw line through the text. To get strikethrough wrap the 
 
 ## THE CHALLENGE
 
-Create a new file and add a first-level heading at the top of your file. This heading should contain `Emphasis` text.
+Create a new file and add a first-level heading at the top of your file. This heading should contain `Emphasis` as text.
 
 Below the heading, add this text:
 

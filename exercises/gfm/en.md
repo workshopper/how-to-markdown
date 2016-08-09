@@ -1,10 +1,10 @@
-If you are developer, then you have heard about **GitHub**. GitHub is an important part of community. Why we are talking about it? That's because GitHub is a big customer of Markdown. Even more, GitHub uses its own version of the Markdown syntax that provides an additional set of useful features. This version of markdown is called _GitHub Flavored Markdown_ or simply _GFM_.
+If you are a developer, then you have heard about **GitHub**. GitHub is an important part of the community. Why are we talking about it? That's because GitHub is a big customer of Markdown. Even more, GitHub uses its own version of the Markdown syntax that provides an additional set of useful features. This version of markdown is called _GitHub Flavored Markdown_ or simply _GFM_.
 
 From previous exercises you are already familiar with syntax highlighting in blocks of code and tables. However, there are some other features which may be helpful for you.
 
 ### Task lists
 
-To create a task list you should create an ordered or unordered list. Then you can use a squared brackets that will be turned into a checkboxes. `x` between makes item as completed. Example:
+To create a task list you should create an ordered or unordered list. Then you can use squared brackets that will be turned into checkboxes. An `x` between them makes the item marked as completed. Example:
 
     - [x] [links](#), **formatting**, and <del>tags</del> supported
     - [x] list syntax required (any unordered or ordered list supported)
@@ -32,15 +32,15 @@ Any number that refers to an Issue or Pull Request will be automatically convert
 
 ### Username @mentions
 
-Typing an `@` symbol, followed by a _username_, will notify that person to come and view the comment. This is called an **@mention**, because you’re mentioning the individual. You can also mention **@teams** within an organization.
+Typing an `@` symbol, followed by a _username_, will notify that person to come and view the comment. This is called a **@mention**, because you’re mentioning the individual. You can also mention **@teams** within an organization.
 
 ### Emoji
 
-It's a funny part, but it's still important. Alson GFM supports _emoji_!
+It's a funny part, but it's still important. GFM also supports _emoji_!
 
 ✨ 🐫 💥
 
-To see a list of every image which are supported, check out the [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/).
+To see a list of every emoji that is supported, check out the [Emoji Cheat Sheet](http://www.emoji-cheat-sheet.com/).
 
 ## THE CHALLENGE
 
