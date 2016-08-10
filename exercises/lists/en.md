@@ -1,4 +1,4 @@
-List are important for structured information. There is nothing hard in the creation of lists in Markdown. Just insert an asterisk (`*`) or a dash (`-`) before each item for an unordered list or a number with a dot for an ordered one (e.g., 1., 2., 3.).
+Lists are important for structured information. There is nothing hard in the creation of lists in Markdown. Just insert an asterisk (`*`) or a dash (`-`) before each item for an unordered list or a number with a dot for an ordered one (e.g., 1., 2., 3.).
 
 ### Unordered lists
 
