@@ -1,4 +1,4 @@
 - To print these instructions again, run: `{appname} print`
-- To execute your program, run: `{appname} run program.bash`
-- To verify your program, run: `{appname} verify program.bash`
+- To execute your program, run: `{appname} run file.md`
+- To verify your program, run: `{appname} verify file.md`
 - For help run: `{appname} help`
