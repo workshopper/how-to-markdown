@@ -33,8 +33,8 @@
     "diff": "^2.2.1",
     "express": "^4.13.4",
     "openurl": "^1.1.1",
-    "remark": "^4.2.0",
-    "remark-html": "^3.0.0",
+    "remark": "^5.1.0",
+    "remark-html": "^5.0.0",
     "workshopper-adventure": "^4.4.3"
   },
   "bin": {
