@@ -35,7 +35,7 @@
     "openurl": "^1.1.1",
     "remark": "^5.1.0",
     "remark-html": "^5.0.0",
-    "workshopper-adventure": "^4.4.3"
+    "workshopper-adventure": "^4.6.3"
   },
   "bin": {
     "how-to-markdown": "./bin/how-to-markdown"

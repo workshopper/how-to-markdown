@@ -36,7 +36,7 @@ module.exports = (dirname) => {
     const attempt = fs.readFileSync(filename, 'utf8');
     const solution = fs.readFileSync(this.solutionPath, 'utf8');
 
-    const parseAST = (str, cb) => cb(remark.parse(str, { position: false }));
+    const parseAST = (str, cb) => cb(remark().parse(str, { position: false }));
 
     parseAST(attempt, (attemptAST) => {
       parseAST(solution, (solutionAST) => {
@@ -74,12 +74,12 @@ module.exports = (dirname) => {
 
     watcher.on('add', (path) => {
       console.log(`${path} has been added.`);
-      result = processor.process(fs.readFileSync(filename, 'utf8'))
+      result = processor().process(fs.readFileSync(filename, 'utf8'))
     });
 
     watcher.on('change', (path) => {
       console.log(`${path} has been changed.`);
-      result = processor.process(fs.readFileSync(filename, 'utf8'))
+      result = processor().process(fs.readFileSync(filename, 'utf8'))
     });
 
     watcher.on('unlink', (path) => {
@@ -93,7 +93,7 @@ module.exports = (dirname) => {
     });
 
     server.get('*', (req, res) => {
-      res.send(result);
+      res.send(result.toString());
     });
 
     server.listen(3000, () => {
