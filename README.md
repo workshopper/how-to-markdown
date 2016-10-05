@@ -68,5 +68,5 @@ MIT © [Denys Dovhan](http://denysdovhan.com)
 [node-url]: https://nodejs.org/en/download/
 [node-image]: https://img.shields.io/node/v/how-to-markdown.svg?style=flat-square
 
-[depstat-url]: https://david-dm.org/denysdovhan/how-to-markdown
-[depstat-image]: https://david-dm.org/denysdovhan/how-to-markdown.svg?style=flat-square
+[depstat-url]: https://david-dm.org/workshopper/how-to-markdown
+[depstat-image]: https://david-dm.org/workshopper/how-to-markdown.svg?style=flat-square

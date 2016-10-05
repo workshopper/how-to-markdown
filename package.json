@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/denysdovhan/learnyoubash.git"
+    "url": "git+https://github.com/workshopper/how-to-markdown.git"
   },
   "keywords": [
     "nodeschool",
@@ -20,9 +20,9 @@
   "author": "Denys Dovhan <email@denysdovhan.com> (http://denysdovhan.com)",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/denysdovhan/learnyoubash/issues"
+    "url": "https://github.com/workshopper/how-to-markdown/issues"
   },
-  "homepage": "https://github.com/denysdovhan/learnyoubash#readme",
+  "homepage": "https://github.com/workshopper/how-to-markdown#readme",
   "engines": {
     "node": ">=4.0.0"
   },
