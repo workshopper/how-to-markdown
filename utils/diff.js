@@ -3,10 +3,10 @@ const diff = require('diff');
 
 module.exports = function (attempt, solution) {
   // Compare solution and attempt results
-  const parts = diff.diffWords(attempt, solution);
+  const parts = diff.diffWordsWithSpace(attempt, solution);
   // return diff
   return parts.map( part =>
-    part.added   ? part.value['red'] :
-    part.removed ? part.value['green'] : part.value
+    part.added   ? part.value['red']['inverse'] :
+    part.removed ? part.value['green']['inverse'] : part.value
   ).join('');
 }
