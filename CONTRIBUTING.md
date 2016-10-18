@@ -8,7 +8,7 @@ If you have questions about contributing, please create an issue.
 
 The role of lead maintainers is to triage and categorize issues, answer questions about contributing to the repository, review and give feedback on PRs, and maintain the quality of a workshopper's codebase and repository.
 
-[Current Lead Maintainers](https://github.com/orgs/workshopper/teams/how-to-npm-leads)
+[Current Lead Maintainers](https://github.com/orgs/workshopper/teams/how-to-markdown-leads)
 
 ### Volunteer
 
