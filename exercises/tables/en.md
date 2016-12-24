@@ -16,7 +16,7 @@ The table above will be rendered like this:
 
 There are a few important things here:
 
-* There must be at least 3 dashes separating each header cell.
+* There must be at least 3 dashes separating each header cell. Colons to align columns count as dashes.
 * The outer pipes (`|`) are optional.
 * You can use inline Markdown in cells.
 
