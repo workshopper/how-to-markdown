@@ -27,7 +27,7 @@
     "node": ">=4.0.0"
   },
   "dependencies": {
-    "chokidar": "^1.4.3",
+    "chokidar": "^1.6.1",
     "colors": "^1.1.2",
     "deep-equal": "^1.0.1",
     "diff": "^3.0.0",
