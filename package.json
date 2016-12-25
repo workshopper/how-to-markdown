@@ -34,7 +34,7 @@
     "express": "^4.13.4",
     "openurl": "^1.1.1",
     "remark": "^6.2.0",
-    "remark-html": "^5.0.1",
+    "remark-html": "^5.1.0",
     "workshopper-adventure": "^5.1.6"
   },
   "bin": {
