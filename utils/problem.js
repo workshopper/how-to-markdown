@@ -22,10 +22,12 @@ module.exports = (dirname) => {
 
     this.problem =
       { file: path.join(dirname, `${lang}.md`) };
-    this.solution =
-      { file: path.join(dirname, `solution`, `${lang}.md`) };
     this.solutionPath =
       path.resolve(dirname, `solution`, `solution.md`);
+    this.solution = [
+      { text: fs.readFileSync(this.solutionPath), type: 'plain' },
+      { file: path.join(dirname, `solution`, `${lang}.md`) }
+    ];
     this.troubleshooting =
       path.join(__dirname, '..', 'i18n', 'troubleshooting', `${lang}.md`)
   };
