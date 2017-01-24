@@ -14,7 +14,7 @@ As in HTML, there are 6 levels of headings. These headings will be transformed i
 There are aliases for first and second-level headings. You will get a first-level heading if you type three `=` signs on the following line.
 You can type three `-` on the following line to create a second-level heading. For example:
 
-    Heading 2
+    Heading 1
     ===
 
     Heading 2
