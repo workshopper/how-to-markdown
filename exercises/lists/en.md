@@ -45,8 +45,8 @@ As you may see, this notation is very intuitive and readable.
 There is nothing hard about making a nested list. Just add a tab, or spaces for nested elements such as:
 
     - element 1
+      - element 1.1
       - element 1.2
-      - element 1.3
     - element 2
       - element 2.1
     - element 3
