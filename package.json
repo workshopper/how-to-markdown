@@ -18,6 +18,9 @@
     "md"
   ],
   "author": "Denys Dovhan <email@denysdovhan.com> (http://denysdovhan.com)",
+  "contributors": [
+    "wangding <408542507@qq.com> (https://github.com/wangding)"
+  ],
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/workshopper/how-to-markdown/issues"
