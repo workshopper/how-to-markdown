@@ -1,0 +1,4 @@
+- 再次打印教程，请运行：`{appname} print`
+- 查看文档效果，请运行：`{appname} run file.md`
+- 检查文档对错，请运行：`{appname} verify file.md`
+- 获取帮助信息，请运行：`{appname} help`
