@@ -1,28 +1,15 @@
 const workshopper = require('workshopper-adventure');
 const path = require('path');
 
-HowToMarkdown = workshopper({
-    appDir      : __dirname
-  , languages   : ['en', 'zh-cn']
-  , header      : require('workshopper-adventure/default/header')
-  , footer      : [
-      { file: path.join(__dirname, 'i18n', 'footer', '{lang}.md') }
-  ]
-});
-
-HowToMarkdown.addAll([
-  "HELLO WORLD",
-  "HEADINGS",
-  "EMPHASIS",
-  "LISTS",
-  "LINKS",
-  "IMAGES",
-  "BLOCKQUOTES",
-  "CODE",
-  "TABLES",
-  "HORIZONTAL RULES",
-  "HTML",
-  "GFM"
-]);
+HowToMarkdown.addAll(require('./menu.json').map(function (problem) {
+  return {
+    name: problem,
+    fn: function () {
+      var p = problem.toLowerCase().replace(/\s/g, '-');
+      var dir = require('path').join(__dirname, 'problems', p);
+      return require(dir);
+    }
+  }
+}))
 
 module.exports = HowToMarkdown;
