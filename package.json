@@ -36,7 +36,7 @@
     "diff": "^3.2.0",
     "express": "^4.13.4",
     "openurl": "^1.1.1",
-    "remark": "^6.2.0",
+    "remark": "^7.0.0",
     "remark-html": "^5.1.0",
     "workshopper-adventure": "^6.0.1"
   },
