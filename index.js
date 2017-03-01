@@ -22,7 +22,7 @@ HowToMarkdown.addAll([
   'TABLES',
   'HORIZONTAL RULES',
   'HTML',
-  'GF',
+  'GFM',
 ]);
 
 module.exports = HowToMarkdown;
