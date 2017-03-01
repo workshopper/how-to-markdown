@@ -1,4 +1,18 @@
 {
   "title"    : "如何使用  Markdown",
-  "subtitle" : "Markdown 非常神奇！"
+  "subtitle" : "Markdown 非常神奇！",
+  "exercise": {
+    "HELLO WORLD": "世界你好",
+    "HEADINGS": "标题",
+    "EMPHASIS": "强调",
+    "LISTS": "列表",
+    "LINKS": "超链接",
+    "IMAGES": "图片",
+    "BLOCKQUOTES": "引用",
+    "CODE": "代码",
+    "TABLES": "表格",
+    "HORIZONTAL RULES": "水平分隔线",
+    "HTML": "超文本",
+    "GFM": "GFM"
+  }
 }
