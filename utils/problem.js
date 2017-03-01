@@ -7,65 +7,57 @@ const chokidar = require('chokidar');
 const open = require('openurl').open;
 const equal = require('deep-equal');
 
-const troubleshooting = require('./troubleshooting');
-const diff = require('./diff');
+const fail = require('./fail');
 
 module.exports = (dirname) => {
-
-  "use strict";
-
   const exports = {};
 
-  exports.init = function (workshopper) {
+  exports.init = function init(workshopper) {
     // Get lang code
     const lang = workshopper.i18n.lang();
 
     this.problem =
       { file: path.join(dirname, `${lang}.md`) };
     this.solutionPath =
-      path.resolve(dirname, `solution`, `solution.md`);
+      path.resolve(dirname, 'solution', 'solution.md');
     this.solution = [
       { text: fs.readFileSync(this.solutionPath), type: 'plain' },
-      { file: path.join(dirname, `solution`, `${lang}.md`) }
+      { file: path.join(dirname, 'solution', `${lang}.md`) },
     ];
     this.troubleshooting =
-      path.join(__dirname, '..', 'i18n', 'troubleshooting', `${lang}.md`)
+      path.join(__dirname, '..', 'i18n', 'troubleshooting', `${lang}.md`);
   };
 
-  exports.verify = function (args, done) {
+  exports.verify = function verify(args, done) {
     const filename = args[0];
-
     const attempt = fs.readFileSync(filename, 'utf8');
     const solution = fs.readFileSync(this.solutionPath, 'utf8');
 
-    const parseAST = (str, cb) => cb(remark().parse(str, { position: false }));
+    const parseAST = str =>
+      Promise.resolve(remark().parse(str, { position: false }));
 
-    parseAST(attempt, (attemptAST) => {
-      parseAST(solution, (solutionAST) => {
+    Promise.all([
+      parseAST(attempt),
+      parseAST(solution),
+    ])
+      .then(([attemptAST, solutionAST]) => {
         if (equal(attemptAST, solutionAST)) {
           return done(true);
-        } else {
-          exports.fail = [
-            {
-              text: troubleshooting(this.troubleshooting, {
-                solution: solution,
-                attempt:  attempt,
-                diff:     diff(solution, attempt),
-                filename: filename
-              }),
-              type: 'md'
-            },
-            { text: '---', type: 'md' },
-            { file: path.join(__dirname, '..', 'i18n', 'footer', '{lang}.md') }
-          ];
-
-          return done(false);
         }
-      });
-    });
+
+        exports.fail = fail({
+          filename,
+          attempt,
+          solution,
+          troubleshooting: this.troubleshooting,
+        });
+
+        return done(false);
+      })
+      .catch(reason => done(reason, false));
   };
 
-  exports.run = function (args, done) {
+  exports.run = function run(args, done) {
     const filename = args[0];
 
     const processor = remark().use(html);
@@ -74,23 +66,23 @@ module.exports = (dirname) => {
 
     let result = '';
 
-    watcher.on('add', (path) => {
-      console.log(`${path} has been added.`);
-      result = processor().process(fs.readFileSync(filename, 'utf8'))
+    watcher.on('add', (file) => {
+      console.log(`${file} has been added.`);
+      result = processor().processSync(fs.readFileSync(filename, 'utf8'));
     });
 
-    watcher.on('change', (path) => {
-      console.log(`${path} has been changed.`);
-      result = processor().process(fs.readFileSync(filename, 'utf8'))
+    watcher.on('change', (file) => {
+      console.log(`${file} has been changed.`);
+      result = processor().processSync(fs.readFileSync(filename, 'utf8'));
     });
 
-    watcher.on('unlink', (path) => {
-      console.warn(`${path} has been unlinked.`);
+    watcher.on('unlink', (file) => {
+      console.warn(`${file} has been unlinked.`);
       done();
     });
 
-    watcher.on('error', (path) => {
-      console.error(`${path} has been errored.`);
+    watcher.on('error', (file) => {
+      console.error(`${file} has been errored.`);
       done();
     });
 
