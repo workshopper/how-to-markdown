@@ -34,7 +34,7 @@ module.exports = (dirname) => {
     const solution = fs.readFileSync(this.solutionPath, 'utf8');
 
     const parseAST = str =>
-      Promise.resolve(remark().parse(str, { position: false }));
+      Promise.resolve(remark().data('settings', { position: false }).parse(str));
 
     Promise.all([
       parseAST(attempt),
