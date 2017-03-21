@@ -1,7 +1,7 @@
 {
   "preferGlobal": true,
   "name": "how-to-markdown",
-  "version": "1.4.1",
+  "version": "1.4.2",
   "description": "Learn you how to start using Markdown",
   "bin": {
     "how-to-markdown": "./bin/how-to-markdown"
