@@ -1,0 +1,17 @@
+{
+  "title": "How To Markdown",
+  "subtitle": "Markdown це неймовірно!",
+  "exercise": {
+    "HELLO WORLD": "Привіт, Світ",
+    "HEADINGS": "Заголовки",
+    "EMPHASIS": "Виділення",
+    "LISTS": "Списки",
+    "LINKS": "Посилання",
+    "IMAGES": "Зображення",
+    "BLOCKQUOTES": "Блоки цитат",
+    "CODE": "Код",
+    "TABLES": "Таблиці",
+    "HORIZONTAL RULES": "Горизонтальні лінії",
+    "GFM": "GFM"
+  }
+}
