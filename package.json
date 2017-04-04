@@ -42,7 +42,7 @@
     "openurl": "^1.1.1",
     "remark": "^7.0.0",
     "remark-html": "^6.0.0",
-    "workshopper-adventure": "^6.0.1"
+    "workshopper-adventure": "^6.0.2"
   },
   "devDependencies": {
     "eslint": "^3.18.0",
