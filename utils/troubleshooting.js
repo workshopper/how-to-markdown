@@ -4,7 +4,7 @@ const diff = require('./diff');
 module.exports = function troubleshooting(path, data) {
   return fs.readFileSync(path, 'utf8')
     // Replace breaking characters
-    .replace(/&#39;/g, "'")
+    .replace(/&#39;/g, '\'')
     .replace(/&quot;/g, '"')
     .replace(/&lt;/g, '<')
     .replace(/&gt;/g, '>')
