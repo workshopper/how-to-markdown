@@ -1,4 +1,4 @@
-/* eslint-disable */
+'use strict';
 
 require('colors');
 const diff = require('diff');

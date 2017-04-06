@@ -1,3 +1,5 @@
+'use strict';
+
 const workshopper = require('workshopper-adventure');
 const path = require('path');
 

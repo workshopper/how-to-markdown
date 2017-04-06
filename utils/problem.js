@@ -1,3 +1,5 @@
+'use strict';
+
 const fs = require('fs');
 const path = require('path');
 const remark = require('remark');
@@ -40,7 +42,10 @@ module.exports = (dirname) => {
       parseAST(attempt),
       parseAST(solution),
     ])
-      .then(([attemptAST, solutionAST]) => {
+      .then((AST) => {
+        const attemptAST = AST[0];
+        const solutionAST = AST[1];
+
         if (equal(attemptAST, solutionAST)) {
           return done(true);
         }
