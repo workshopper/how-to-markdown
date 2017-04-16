@@ -32,7 +32,7 @@ module.exports = (dirname) => {
 
   exports.verify = function verify(args, done) {
     const filename = args[0];
-    const attempt = fs.readFileSync(filename, 'utf8');
+    const attempt = fs.readFileSync(filename, 'utf8').replace('\r\n', '\n');
     const solution = fs.readFileSync(this.solutionPath, 'utf8');
 
     const parseAST = str =>
