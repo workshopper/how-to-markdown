@@ -1,0 +1,4 @@
+- この説明をもう一度表示する: `{appname} print`
+- 作成したプログラムを試しに実行する: `{appname} run file.md`
+- 作成したプログラムが正しいか検証する: `{appname} verify file.md`
+- ヘルプを表示する: `{appname} help`
