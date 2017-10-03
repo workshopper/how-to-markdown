@@ -1,0 +1,17 @@
+{
+  "title": "How To Markdown",
+  "subtitle": "Markdownは最高!",
+  "exercise": {
+    "HELLO WORLD": "HELLO, WORLD",
+    "HEADINGS": "ヘッダー",
+    "EMPHASIS": "強調",
+    "LISTS": "リスト",
+    "LINKS": "リンク",
+    "IMAGES": "画像",
+    "BLOCKQUOTES": "引用",
+    "CODE": "コード",
+    "TABLES": "テーブル",
+    "HORIZONTAL RULES": "水平罫線",
+    "GFM": "GFM"
+  }
+}
