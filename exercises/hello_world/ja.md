@@ -31,19 +31,19 @@ Markdown はどこでも使用可能です：
 
 Markdownについての知識は、現代の開発者にとって重要なスキルです。ですので、あなたはそれを学ばなければならないのです。
 
-### How to get Markdown?
+### Markdownの入手方法
 
-There is no clearly defined Markdown standard. Markdown is just common rules on how to write readable and formatted text.
+Markdownの基準は明確に定義されていません。 Markdownは、読みやすい書式付きテキストの書き方に関する一般的な規則です。
 
-While Markdown is a minimal markup language and is easily read and edited with a normal text editor, there's no need in specially designed editors for writing files in Markdown. However, there are a few editors that preview the files with styles.
+Markdownは最小限のマークアップ言語であり、通常のテキストエディタで簡単に読み込んで編集できますが、Markdownでファイルを書き込むための特別に設計されたエディタは必要ありません。ただし、スタイルを使用してファイルをプレビューするエディタはいくつかあります。
 
-Implementations of Markdown are available for over a dozen programming languages (_JavaScript_, _Ruby_, _Python_, _PHP_, _Perl_, etc). In addition, many platforms and frameworks support Markdown out of the box. For example, Markdown plugins exist for every major blogging platform.
+Markdownの実装は、十数以上のプログラミング言語（_JavaScript_、_Ruby_、_Python_、_PHP_、_Perl_など）で利用できます。さらに、多くのプラットフォームおよびフレームワークはMarkdownをそのまま使用できます。たとえば、Markdownプラグインは主要なブログプラットフォームごとに存在します。
 
-### How to use this workshopper?
+### このワークショップの使い方
 
-It's easy to use this workshopper. In most cases, it's enough to use these three commands for interacting with this workshopper:
+このワークショップを使用するのは簡単です。ほとんどの場合、次の3つのコマンドを使用してこのプログラムと対話するだけで十分です。
 
-* `how-to-markdown run file.md` will serve a local server at `http://localhost:3000/` with a preview of `file.md`.
+* `how-to-markdown run file.md` で、`file.md` をプレビューするためのローカルサーバー `http://localhost:3000/` を提供します。
 * `how-to-markdown verify file.md` will verify your file.
 * `how-to-markdown help` shows a help message.
 
