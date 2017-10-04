@@ -44,15 +44,15 @@ Markdownの実装は、十数以上のプログラミング言語（_JavaScript_
 このワークショップを使用するのは簡単です。ほとんどの場合、次の3つのコマンドを使用してこのプログラムと対話するだけで十分です。
 
 * `how-to-markdown run file.md` で、`file.md` をプレビューするためのローカルサーバー `http://localhost:3000/` を提供します。
-* `how-to-markdown verify file.md` will verify your file.
-* `how-to-markdown help` shows a help message.
+* `how-to-markdown verify file.md` で、作成したファイルをチェックします。
+* `how-to-markdown help` でヘルプを表示します。
 
-## THE CHALLENGE
+## 課題
 
-You first challenge is pretty simple. Just create a new file (for example using `touch`) and add a single line:
+最初の課題はいたってシンプル。`touch`などを使って、新しいファイルを作成し、その中に以下の通り一行追加してください。
 
     Hello, world!
 
-If you already did this, run `how-to-markdown verify` to verify your solution or `how-to-markdown run` to run your file in the browser.
+完了したら、`how-to-markdown verify` で解答が正しいか確認するか、`how-to-markdown run`で作成したファイルをブラウザで見てみましょう。
 
 ---
