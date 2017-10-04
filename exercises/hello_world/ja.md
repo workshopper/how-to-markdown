@@ -7,7 +7,7 @@
 
  **how-to-markdown**へようこそ!
 
-### **Markdownってなに?
+### **Markdownってなに?**
 
 まずはじめに、Markdownが実際に何をしているか考えて見ましょう。
 
