@@ -5,7 +5,7 @@ const path = require('path');
 
 const HowToMarkdown = workshopper({
   appDir: __dirname,
-  languages: ['en', 'zh-cn', 'uk'],
+  languages: ['en', 'zh-cn', 'uk', 'ja'],
   header: require('workshopper-adventure/default/header'),
   footer: [{
     file: path.join(__dirname, 'i18n', 'footer', '{lang}.md'),
