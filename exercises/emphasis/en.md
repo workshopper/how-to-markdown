@@ -2,9 +2,9 @@ It's easy to mark text as _italic_, **bold**, _**combined**_ and ~~strikethrough
 
 To get emphasis just wrap some text in single, double or triple asterisks (`*`) or underscores (`_`). Here are some examples:
 
-    Italics with *asterisks* and _underscores_.
+    Italic with *asterisk* and _underscore_.
 
-**|>** Italics with *asterisks* and _underscores_.
+**|>** Italic with *asterisk* and _underscore_.
 
     Bold with **asterisks** or __underscores__
 
